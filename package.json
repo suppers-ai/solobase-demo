@@ -1,0 +1,17 @@
+{
+  "name": "solobase-web",
+  "type": "module",
+  "description": "Solobase compiled to WASM for running in the browser via Service Worker",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "solobase_web_bg.wasm",
+    "solobase_web.js",
+    "solobase_web.d.ts"
+  ],
+  "main": "solobase_web.js",
+  "types": "solobase_web.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
